@@ -1,0 +1,25 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.featured {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 20px;
+  background-color: rgb(1, 104, 104);
+  color: beige;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  background: rgba(85, 97, 105, 0.8);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: rgb(77, 100, 116);
+}
